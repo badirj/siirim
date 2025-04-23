@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/poetsFragment">
+
+    <fragment
+        android:id="@+id/poetsFragment"
+        android:name="com.example.siirimnew1.ui.poets.PoetsFragment"
+        android:label="Şairler">
+        <action
+            android:id="@+id/action_poetsFragment_to_poetDetailFragment"
+            app:destination="@id/poetDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poetDetailFragment"
+        android:name="com.example.siirimnew1.ui.poet_detail.PoetDetailFragment"
+        android:label="Şair Detay">
+        <argument
+            android:name="poetId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_poetDetailFragment_to_poemDetailFragment"
+            app:destination="@id/poemDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poemDetailFragment"
+        android:name="com.example.siirimnew1.ui.poem_detail.PoemDetailFragment"
+        android:label="Şiir Detay">
+        <argument
+            android:name="poemId"
+            app:argType="string" />
+    </fragment>
+
+</navigation> 

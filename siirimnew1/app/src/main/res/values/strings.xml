@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Siirim</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="search">Şairler</string>
+    <string name="profile">Profil</string>
+    <string name="add_poem">Yeni Şiir Ekle</string>
+    <string name="like">Beğen</string>
+    <string name="comment">Yorum</string>
+    <string name="error_loading_poems">Şiirler yüklenirken hata oluştu</string>
+    <string name="error_adding_poem">Şiir eklenirken bir hata oluştu</string>
+    <string name="success_adding_poem">Şiir başarıyla eklendi</string>
+    <string name="poet_image">Şair Fotoğrafı</string>
+    <string name="error_loading_poet">Şair bilgileri yüklenirken hata oluştu</string>
+    <string name="poet_not_found">Şair bulunamadı</string>
+    <string name="poems">Şiirler</string>
+    <string name="poet_name">Şair Adı</string>
+    <string name="poet_dates">Doğum/Ölüm Tarihleri</string>
+    <string name="poet_bio">Biyografi</string>
+</resources>
